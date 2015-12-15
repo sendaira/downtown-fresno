@@ -2,15 +2,17 @@
 
 <html>
     <head>
-        <title>Lilian Martinez | Downtown Fresno Revitilization</title>
+        <title>Lilian Martinez</title>
         
-        <link rel="stylesheet" href="css/main.css" type="text/css"/>
-        <link rel="stylesheet" href="css/font-awesome.css" type="text/css"/>
+        <link href="css/main.css" rel="stylesheet" type="text/css"/>
+        <link href="css/mobile-menu.css" rel="stylesheet" type="text/css" />
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
         
         <meta charset="UTF-8" />
         <meta name="description" content="Welcome to the my first official site.  I love to code, read and draw." />
         <meta name="keywords" content="lilian, martinez, fresno, lilian martinez fresno" />
         <meta name="author" content="Lilian Martinez" />
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scaleable=no" />
     </head>
     <body>
         <header>
@@ -20,8 +22,11 @@
                     
                     <h1><a href="index.html"  id="logo">Lilian Martinez</a></h1>
                 </figure>
-                <nav id="menu">
-                    <ul>
+                
+                <nav id="menu" class="mobile">
+                    <!--<a></a>-->
+                    <input type="checkbox" id="nav" /><label for="nav">MENU</label>
+                    <ul id="mobileMenu">
                         <li class="currentPage"><a href="index.html" title="#">Home</a></li>
                         <li><a href="about_me.html" title="#">About Me</a></li>
                         <li><a href="typing.html" title="#">Typing</a></li>
@@ -34,7 +39,7 @@
         <div id="bannerHome">
             <h1 class="bannerTitle">Welcome to My Page!</h1>
             <div id="bannerButton">
-                <a href="about_me.html" class="button" title="Information About Me">Full Bio</a>
+                <a href="about_me.html" class="button" title="Information About Me">Full Bio</a> 
             </div>
         </div> <!-- id="bannerHome" -->
         <section class="mainWidth" id="main">
@@ -43,8 +48,8 @@
             <article class="columnA">
                 <h2>Video Games</h2>
                 <figure class="likeImage">
-                    <a href="http://www.ign.com/" target="_blank" class="image image-full" ><img src="images/videogames.jpg" alt="Variety of Video Game Consoles." title="Video games are so much fun!" /></a>
-                    <span>Video Game Hype!</span>
+                    <a href="http://www.ign.com/" target="_blank" class="image image-full" ><img src="images/videogames.png" alt="Variety of Video Game Consoles." title="Video games are so much fun!" /></a>
+                    <!--<span>Video Game Hype!</span>-->
                 </figure>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, pariatur, delectus, reiciendis iusto doloribus earum odio quibusdam consequatur dignissimos quia quis blanditiis voluptas alias vel ut aliquid corporis nihil totam!</p>
                 <a href="http://www.ign.com/" class="button" target="_blank" title="IGN">Visit the IGN Site Here!</a>
@@ -55,8 +60,8 @@
             <article class="columnB">
                 <h2>Anime</h2>
                 <figure class="likeImage">
-                    <a href="http://myanimelist.net/" target="_blank" class="image image-full" ><img src="#" alt="Some Main Stream Anime" title="One doesn't just choose one favorite anime series." /></a>
-                    <span>Anime Marathon</span>
+                    <a href="http://myanimelist.net/" target="_blank" class="image image-full" ><img src="images/anime.png" alt="Some Main Stream Anime" title="One doesn't just choose just one favorite anime series." /></a>
+                    <!--<span>Anime Marathon</span>-->
                 </figure>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, pariatur, delectus, reiciendis iusto doloribus earum odio quibusdam consequatur dignissimos quia quis blanditiis voluptas alias vel ut aliquid corporis nihil totam!</p>
                 <a href="http://www.myanimelist.net/" class="button" target="_blank" title="My Anime List">Make Your Anime List Today!</a>
@@ -67,8 +72,8 @@
             <article class="columnC">
                 <h2>Art</h2>
                 <figure class="likeImage">
-                    <a href="http://deviantart.com/" target="_blank" class="image image-full" ><img src="images/" alt="Crayons Forming the Shape of a Heart" title="Art has no limits." /></a>
-                    <span>Beware of Artist Block</span>
+                    <a href="http://deviantart.com/" target="_blank" class="image image-full" ><img src="images/crayon_heart.png" alt="Crayons Forming the Shape of a Heart" title="Art has no limits." /></a>
+                    <!--<span>Beware of Artist Block</span>-->
                 </figure>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, pariatur, delectus, reiciendis iusto doloribus earum odio quibusdam consequatur dignissimos quia quis blanditiis voluptas alias vel ut aliquid corporis nihil totam!</p>
                 <a href="http://www.deviantart.com/" class="button" target="_blank" title="DeviantArt">Support New Artists!</a>
@@ -76,6 +81,7 @@
             <!--COLUMN (C) ENDS HERE-->            
             
         </section>
+        
         <section class="mainWidth">
             <aside class="alignLeft">
                 <figure>
@@ -130,8 +136,8 @@
         <footer class="copyright">
             <div class="social">
                 <a href="#" target="_blank" title=""><i class="fa fa-facebook"></i></a>
-                <a href="#" target="_blank" title=""><i class="fa fa-twitter"></i></a>
-                <a href="#" target="_blank" title=""><i class="fa fa-linkedin"></i></a>
+                <a href="https://twitter.com/RedRoseDuelist" target="_blank" title=""><i class="fa fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/profile/preview?vpa=pub&locale=en_US" target="_blank" title=""><i class="fa fa-linkedin"></i></a>
             </div>
             <p>&copy; 2015 Lilian Martinez.  All rights reserved. | Site by: <a href="https://www.linkedin.com/pub/lilian-martinez/105/35a/73b" target="_blank" title="View my Linkedin profile today.">Lilian Martinez</a> </p>
         </footer>
@@ -142,7 +148,6 @@
 
 
 
- 
  
  
  

@@ -77,7 +77,7 @@ hr {
 /*======================HEADER STYLES======================*/
 
 header {
-    background-color:#246B47;
+    /*background-color:#246B47;*/
     /*heigth:150px;*/
 }
 
@@ -447,15 +447,25 @@ fieldset {
 
 /*TABLET SCREEN*/
 @media screen and (max-width:1024px) {
-    }
-    .columnA, .columnB, .columnC {
+    .columnA, .columnB, .columnC, .alignRight, .alignLeft {
         width:auto;
         margin:1% auto;
+        clear:both;
     }
+    
+    .likeImage {
+        width:384px;
+        margin:0px auto;
+    }
+    
+    .button {
+        width:360px;
+        margin:0px auto;
+    } 
     
     .mainWidth {
         width:100%;
-        margin:20px auto;
+        padding:20px;
     }
 }
 
