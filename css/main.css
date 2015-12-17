@@ -257,10 +257,25 @@ a.button, .button {
     margin-right:24px;
 }
 
+.floatLeft {
+    float: left;
+    width:684px;
+    margin-right:20px;
+}
+
 .alignRight {
     float:right;
     width:792px;
     text-align:justify;
+}
+
+.floatRight {
+    float:right;
+    margin-left:20px;
+}
+
+.clear {
+    clear:both;
 }
 
 .mainWidth {
@@ -271,6 +286,10 @@ a.button, .button {
 
 #main {
     margin-bottom:25px;
+}
+
+.clear {
+    clear:both;
 }
 
 /*  FOOTER STYLES  */
@@ -445,6 +464,52 @@ fieldset {
 .fa-twitter {background-color:#8CA6D9;}
 .fa-linkedin {background-color:#0077B5;}
 
+#wufoo-z17s4yk416p8kx4, #contactForm {
+    width:90%;
+    border-radius:6px;
+    background-color:#F1F1F1;
+    margin:20px auto;
+    border:4px solid #FF7900;
+}
+
+#myVideos {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0px;
+    overflow:hidden;
+    width:1200px;
+    margin:0px auto;
+}
+
+#myVideos iframe, #myVideos embed {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+}
+
+#myAudio {
+    width:384px;
+    margin:0px auto;
+}
+
+/*PHOTO GALLERY*/
+
+.galleryImages {
+    background-color:#b4b4f0;
+    padding:10px;
+    border:2px solid #1F1F99;
+    width:300px;
+    float: left;
+    margin:5px;
+}
+
+.figNewton {
+    
+}
+
 /*TABLET SCREEN*/
 @media screen and (max-width:1024px) {
     .columnA, .columnB, .columnC, .alignRight, .alignLeft {
@@ -469,7 +534,7 @@ fieldset {
     }
 }
 
-
+/*http://sendaira.github.io/downtown-fresno/*/
 
 
 
